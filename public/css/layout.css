@@ -28,7 +28,7 @@ html{
     top: 50%;
     left: 10px;
     position: absolute;
-    display: none
+    display: none;
 }
 #navBurger{
     position: fixed;
