@@ -64,7 +64,6 @@
     border: 1px solid black;
     cursor: pointer;
 }
-
 @media (max-width: 700px) {
     .formName{
         flex-direction: column;

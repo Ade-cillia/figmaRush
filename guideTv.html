@@ -12,7 +12,7 @@
 <body>
     <header class="header">
         <div class="menuBurger">
-            <label for="toggleMenu" >
+            <label for="toggleMenu">
                 <svg class="burger" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24">
                     <path  fill="none" d="M0 0h24v24H0V0z"/><path fill="white" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
                 </svg>
@@ -78,7 +78,7 @@
                 <th>Début</th>
                 <th>Titre</th>
                 <th>Durée</th>
-                <th>Synopsis du programme</th>
+                <th class="responsiveNone">Synopsis du programme</th>
                 <th>Alerte</th>
               </tr>
             </thead>
@@ -93,13 +93,26 @@
                 <td>00h00</td>
                 <td>Naruto</td>
                 <td>30min</td>
-                <td class="tdDescribre">
+                <td class="tdDescribre" >
                     Le ninja le plus puissant de Konoha à l'époque, Minato Namikaze, a réussi à sceller ce démon dans le corps de Naruto. C'est ainsi que douze ans plus tard, Naruto rêve de devenir le plus grand Hokage de Konoha afin que tous le reconnaissent à sa juste valeur.
                 </td>
-                <td>
+                <td class="tdNotif">
                     <svg class="notif" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 23a2 2 0 0 0 2-2H10A2 2 0 0 0 12 23zM4 19H20a1 1 0 0 0 .707-1.707L19 15.586V10a7.006 7.006 0 0 0-6-6.92V2a1 1 0 0 0-2 0V3.08A7.006 7.006 0 0 0 5 10v5.586L3.293 17.293A1 1 0 0 0 4 19zm2.707-2.293A1 1 0 0 0 7 16V10a5 5 0 0 1 10 0v6a1 1 0 0 0 .293.707l.293.293H6.414z"/></svg>
+                    <label for="more" class="more">
+                        <img src="./public/image/arrow.svg" alt="logo flèche prour choisir une date">
+                    </label>
                 </td>
               </tr>
+              <tr class="noBorder">
+                  <td>
+                    <input type="checkbox" id="more">
+                    <label class="tdDescribre responsiveDescribe">
+                            Le ninja le plus puissant de Konoha à l'époque, Minato Namikaze, a réussi à sceller ce démon dans le corps de Naruto. C'est ainsi que douze ans plus tard, Naruto rêve de devenir le plus grand Hokage de Konoha afin que tous le reconnaissent à sa juste valeur.
+                    </label>
+                  </td>
+              </tr>
+              
+              
               <tr>
                 <td>VF</td>
                 <td class="tdImage">
@@ -118,7 +131,7 @@
                 </td>
               </tr>
               <tr>
-                <td>VOSTFR</td>
+                <td>VOST FR</td>
                 <td class="tdImage">
                     <div class="tableImage">
                         <img src="./public/image/jojo.jpg" alt="Image Naruto">
@@ -186,7 +199,7 @@
                 </td>
               </tr>
               <tr>
-                <td>VOSTFR</td>
+                <td>VOST FR</td>
                 <td class="tdImage">
                     <div class="tableImage">
                         <img src="./public/image/onepiece.jpg" alt="Image Naruto">
@@ -203,7 +216,7 @@
                 </td>
               </tr>
               <tr>
-                <td>VOSTFR</td>
+                <td>VOST FR</td>
                 <td class="tdImage">
                     <div class="tableImage">
                         <img src="./public/image/onepiece.jpg" alt="Image Naruto">
@@ -220,7 +233,7 @@
                 </td>
               </tr>
               <tr>
-                <td>VOSTFR</td>
+                <td>VOST FR</td>
                 <td class="tdImage">
                     <div class="tableImage">
                         <img src="./public/image/onepiece.jpg" alt="Image Naruto">
@@ -237,7 +250,7 @@
                 </td>
               </tr>
               <tr>
-                <td>VOSTFR</td>
+                <td>VOST FR</td>
                 <td class="tdImage">
                     <div class="tableImage">
                         <img src="./public/image/HighSchoolDxD.jpg" alt="Image Naruto">
@@ -254,7 +267,7 @@
                 </td>
               </tr>
               <tr>
-                <td>VOSTFR</td>
+                <td>VOST FR</td>
                 <td class="tdImage">
                     <div class="tableImage">
                         <img src="./public/image/HighSchoolDxD.jpg" alt="Image Naruto">
