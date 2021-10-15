@@ -208,6 +208,9 @@
     .description{
         width:80%;
     }
+    .firstBanner{
+        height: 50vw;
+    }
     
 } 
 @media (max-width: 1100px) {
