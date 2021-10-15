@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/layout.css">
-    <link rel="stylesheet" href="./public/css/home.css">
+    <link rel="stylesheet" href="./public/css/contact.css">
     <link rel="icon" href="./public/image/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>Game One</title>
@@ -57,6 +57,36 @@
     </header>
 
     <main class="main">
+        <div class="rtcHide"></div>
+        <div class="divTitle">
+            <h1>Nous contacter</h1>
+        </div>
+        <form action="./contact.html" class="divForm">
+            <div class="formPadding">
+                <div class="formName">
+                    <div>
+                        <label for="lastName">Nom:</label><br/>
+                        <input type="text" id="lastName" name="lastName" placeholder="Nom">
+                    </div>
+                    <div>
+                        <label for="firstName">Prénom:</label><br/>
+                        <input type="text" id="firstName" name="firstName" placeholder="Prénom">
+                    </div>
+                </div>
+                <div class="formEmail">
+                    <label for="email">Email:</label><br/>
+                    <input type="text" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="formTextarea">
+                    <label for="information">Information::</label><br/>
+                    <textarea placeholder="Information" id="information" name="information" id="information"  rows="5"></textarea>
+                </div>
+                <input type="submit" name="information" value="Valider" class="btnComponent">
+            </div>
+            
+            
+
+        </form>
     </main>
 
     <footer class="footer">

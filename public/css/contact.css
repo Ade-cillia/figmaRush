@@ -1,0 +1,75 @@
+.rtcHide{
+    height: 79px;
+    width: 100%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.divTitle{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divForm{
+    width: 80%;
+    height: 510px;
+    background-color: #F5F2F2;
+    border: 1px solid #474545;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+.formPadding{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: space-around;
+    flex-wrap: wrap;
+}
+.formName{
+    display: flex;
+    width: 100%;
+}
+.formTextarea,
+.formEmail{
+    width: 100%;
+}
+.formTextarea textarea{
+    resize: inherit; 
+    width: 80%;
+}
+.formTextarea{
+    width: 100%;
+    resize: none;
+}
+.formName div{
+    padding-right: 60px;
+}
+.btnComponent{
+    background-color: #8ED3FF;
+    z-index: 1;
+    font-size: 1.2em;
+    border-radius: 90px;
+    min-width: 200px;
+    height: 40px;
+    justify-content: center;
+    outline: none;
+    text-decoration: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .formName{
+        flex-direction: column;
+    }
+    .formName div{
+        padding-bottom: 20px;
+    }
+} 
